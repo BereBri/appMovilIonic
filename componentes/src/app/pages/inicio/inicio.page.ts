@@ -20,16 +20,32 @@ export class InicioPage implements OnInit {
 
   componentes: Componente[] = [
     {
-      icon: 'american-football-outline',
-      name: 'Action sheet',
+      icon: 'heart-half-outline',
+      name: 'Action Sheet',
       redirectTo: '/action-sheet'
     },
     {
-      icon: 'logo-apple-appstore',
+      icon: 'extension-puzzle-outline',
       name: 'Alert',
       redirectTo: '/alert'
+    },
+    {
+      icon: 'calendar-number-outline',
+      name: 'DateTime',
+      redirectTo: '/date-time'
+    },
+    {
+      icon: 'people-circle-outline',
+      name: 'Avatar',
+      redirectTo: '/avatar'
     }
+
+
+    //aca se crea un listado que se implemento en el inicio.page.html 
+    //se crea un array donde estaran las paginas con sus rutas, y el icono que se escogio 
   ] 
+
+  //
 
   constructor() { }
 

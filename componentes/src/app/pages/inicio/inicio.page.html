@@ -1,15 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title color="primary">Componentes</ion-title>
+    <ion-title color="danger">Componentes</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content >
+
   <ion-list>
-    <ion-item *ngFor="let c of componentes" [routerLink]="c.redirectTo" detail>
-      <ion-icon [name]="c.icon" slot="start" color="primary">{{c.name}}</ion-icon>
+    <ion-item *ngFor="let c of componentes" [routerLink]="c.redirectTo" detail >
+      <ion-icon [name]="c.icon" slot="start" color="danger"></ion-icon>
+      {{c.name}}
     </ion-item>
   </ion-list>
+
 <!-- 
 <ion-button routerLink="/alert">
     Alert
@@ -17,5 +20,8 @@
   <ion-button routerLink="/action-sheet">
     Action-sheet
   </ion-button>
+
+
+  aca se crean dos botones para navegar entre pantallas y se crea una lista 
 -->
 </ion-content>
