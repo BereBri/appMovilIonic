@@ -16,8 +16,15 @@
 -->
 
 <app-header titulo="Action Sheet"></app-header>
-<ion-content>
+
+<ion-content class="ion-padding">
+
+  <h1>Bienvenido a action sheet</h1>
+  
+  <ion-button (click)="onClick()" expand="block">Mas opciones</ion-button>
+  <ion-button (click)="onClick()" expand="block">Mostrar action sheet</ion-button>
 
 </ion-content>
 
 <!-- Este app header  se debe exponer en el action-sheep.module.ts para que pueda reconocerlo  -->
+

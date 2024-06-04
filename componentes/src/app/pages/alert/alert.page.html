@@ -15,7 +15,15 @@
 -->
 <app-header titulo="Alert"></app-header>
 
-<ion-content >
+<ion-content class="ion-padding">
+
+  <h1>Bienvenido a Alerta</h1>
+
+  <ion-button (click)="presentAlert()" expand="block">Mostrar Alertas</ion-button>
+
+  <ion-button (click)="presentAlertMultilpeButton()" expand="block">
+    Alert MultilpeButton
+  </ion-button>
 
 </ion-content>
 

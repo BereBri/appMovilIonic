@@ -38,6 +38,11 @@ export class InicioPage implements OnInit {
       icon: 'people-circle-outline',
       name: 'Avatar',
       redirectTo: '/avatar'
+    },
+    {
+      icon: 'book-outline',
+      name: 'Input',
+      redirectTo: '/input'
     }
 
 
